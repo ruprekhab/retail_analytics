@@ -4,7 +4,7 @@
 
 This project involves a comprehensive SQL-based analysis of a retail dataset to uncover insights at both **product** and **regional** levels. The objective is to support strategic decision-making around **product expansion**, **promotional pricing**, and **market optimization**.
 
----
+
 
 ## Business Objective
 
@@ -14,7 +14,7 @@ To analyze product and regional sales data to uncover opportunities for **profit
 - Regions that are under-penetrated or inefficient in terms of sales and profitability.
 - Actionable strategies to drive growth.
 
----
+
 
 ## Problem Context
 
@@ -24,14 +24,14 @@ A retail company operates across multiple regions and offers a wide variety of p
 - Investigate **regional differences** in sales performance, discounting strategies, and profit margins.
 - Make data-driven decisions around **expansion and promotion.
 
----
+
 
 ## Tools & Techniques
 
 - **SQL** (Window Functions, Aggregations, Ranking, Grouping)
 - **Business Intelligence Approach**: Focused on real-world retail KPIs—sales, profit margin, discounts, and category penetration
 
----
+
 
 ## Analysis Summary
 
@@ -40,15 +40,16 @@ A retail company operates across multiple regions and offers a wide variety of p
 - **Top categories by profit margin**: `Snacks`, `Harvest`, and `Beverages`
 - Used **window functions** to rank **top 3 sub-categories** by profit margin within each category.
 
-- ![Screenshot: `top_3_sub_category`]("images/top_3_sub_cat.png")
+![image_alt]("images/top_3_sub_cat.png")
 
 ### Regional Analysis
 - Identified **top 3 categories by profit margin per region**
 - North region stood out with the **highest profit margin (31%)** but had **only one category and one city (Vellore)**—an outlier with only one recorded transaction.
 - Compared **total sales, average discounts, and profit margins** across all regions.
-![Screenshot: `top_3_category_by_region`]("images/top_3_cate_regionwise.png")
 
----
+![image_alt]("KPI_regionwise.png")
+
+
 
 ## Key Insights
 
@@ -57,9 +58,9 @@ A retail company operates across multiple regions and offers a wide variety of p
 - **Central**: Highest discounts but lowest profit margin and underwhelming sales—needs urgent optimization.
 - **East & West**: High sales with moderate profitability—mature markets that should be maintained and fine-tuned.
 
----
 
-## 📬 Conclusion & Action Plan
+
+## Conclusion & Action Plan
 
 | Region   | Strategy         | Action                                                              |
 |----------|------------------|---------------------------------------------------------------------|
