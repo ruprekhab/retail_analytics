@@ -40,7 +40,7 @@ A retail company operates across multiple regions and offers a wide variety of p
 - **Top categories by profit margin**: `Snacks`, `Harvest`, and `Beverages`
 - Used **window functions** to rank **top 3 sub-categories** by profit margin within each category.
 
-![image_alt]("images/top_3_sub_cat.png")
+![Top 3 Sub-Categories by Profit Margin](images/top_3_sub_cat.png)
 
 
 ### Regional Analysis
