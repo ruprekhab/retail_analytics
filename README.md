@@ -42,6 +42,7 @@ A retail company operates across multiple regions and offers a wide variety of p
 
 ![image_alt]("images/top_3_sub_cat.png")
 
+
 ### Regional Analysis
 - Identified **top 3 categories by profit margin per region**
 - North region stood out with the **highest profit margin (31%)** but had **only one category and one city (Vellore)**—an outlier with only one recorded transaction.
