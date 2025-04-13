@@ -2,17 +2,16 @@
 
 ## Project Overview
 
-This project involves a comprehensive SQL-based analysis of a retail dataset to uncover insights at both **product** and **regional** levels. The objective is to support strategic decision-making around **product expansion**, **promotional pricing**, and **market optimization**.
+This project involves a comprehensive SQL-based analysis of a retail dataset to uncover insights at both **product** and **regional** levels. The objective is to support strategic decision-making around **promotional pricing** and **market and expansion**.
 
 
 
 ## Business Objective
 
-To analyze product and regional sales data to uncover opportunities for **profit optimization**, **strategic product expansion**, and **regional performance improvement**. The goal is to identify:
+To analyze product and regional sales data to uncover opportunities for **profit optimization** and **regional performance improvement**. The goal is to identify:
 
-- Top-performing and underperforming product categories and sub-categories.
 - Regions that are under-penetrated or inefficient in terms of sales and profitability.
-- Actionable strategies to drive growth.
+- Actionable strategies to expand drive growth.
 
 
 
@@ -20,7 +19,6 @@ To analyze product and regional sales data to uncover opportunities for **profit
 
 A retail company operates across multiple regions and offers a wide variety of product categories. While overall revenue is growing, there are untapped opportunities in certain markets and inefficiencies in others. There is a need to:
 
-- Evaluate the **profitability vs. sales** trade-off at the product level.
 - Investigate **regional differences** in sales performance, discounting strategies, and profit margins.
 - Make data-driven decisions around **expansion** and **promotion**.
 
