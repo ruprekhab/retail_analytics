@@ -78,10 +78,10 @@ A retail company operates across multiple regions and offers a wide variety of p
 
 ## File Structure
 
-**images** - Visuals used in the README (screenshots)
-**output** - Contains final cleaned dataset: cleaned_data.csv
-**Resources** - Contains the original/raw data files
-**sql_queries** - SQL schema and query files used for analysis
-**data_clean.csv** - Python script for cleaning raw data and EDA
-**README.md** - Project overview and documentation
+**images** - Visuals used in the README (screenshots) </br>
+**output** - Contains final cleaned dataset: cleaned_data.csv </br>
+**Resources** - Contains the original/raw data files </br>
+**sql_queries** - SQL schema and query files used for analysis </br>
+**data_clean.csv** - Python script for cleaning raw data and EDA </br>
+**README.md** - Project overview and documentation </br>
 
