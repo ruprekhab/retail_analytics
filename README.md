@@ -29,7 +29,7 @@ A retail company operates across multiple regions and offers a wide variety of p
 ## Tools & Techniques
 
 - **SQL** (Window Functions, Aggregations, Ranking, Grouping)
-- **Business Intelligence Approach**: Focused on real-world retail KPIs—sales, profit margin, discounts, and category penetration
+- **Business Intelligence Approach**: Focused on real-world retail KPIs—sales, profit margin, discounts, and regional penetration
 
 
 
@@ -45,6 +45,9 @@ A retail company operates across multiple regions and offers a wide variety of p
 
 ### Regional Analysis
 - Identified **top 3 categories by profit margin per region**
+
+![KPI by Region](images/top_3_cate_regionwise.png)
+
 - North region stood out with the **highest profit margin (31%)** but had **only one category and one city (Vellore)**—an outlier with only one recorded transaction.
 - Compared **total sales, average discounts, and profit margins** across all regions.
 
@@ -75,3 +78,15 @@ A retail company operates across multiple regions and offers a wide variety of p
 
 ## File Structure
 
+**images** - Contains the images
+**output** - Contains the cleaned_data.csv file
+**Resources** - Contains the raw data file
+**sql_queries** - contains the schema and query files
+**data_clean.csv** - conatins the python script to clean the raw data and conduct exploratory data analysis
+
+├── images/             # Visuals used in the README (charts, screenshots, etc.)
+├── output/             # Contains final cleaned dataset: cleaned_data.csv
+├── Resources/          # Contains the original/raw data files
+├── sql_queries/        # SQL schema and query files used for analysis
+├── data_clean.py       # Python script for cleaning raw data and EDA
+├── README.md           # Project overview and documentation
