@@ -22,7 +22,7 @@ A retail company operates across multiple regions and offers a wide variety of p
 
 - Evaluate the **profitability vs. sales** trade-off at the product level.
 - Investigate **regional differences** in sales performance, discounting strategies, and profit margins.
-- Make data-driven decisions around **expansion and promotion.
+- Make data-driven decisions around **expansion** and **promotion**.
 
 
 
