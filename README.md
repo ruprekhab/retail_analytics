@@ -48,7 +48,7 @@ A retail company operates across multiple regions and offers a wide variety of p
 - North region stood out with the **highest profit margin (31%)** but had **only one category and one city (Vellore)**—an outlier with only one recorded transaction.
 - Compared **total sales, average discounts, and profit margins** across all regions.
 
-![image_alt]("KPI_regionwise.png")
+![KPI by Region](images/KPI_regionwise.png)
 
 
 
