@@ -39,11 +39,11 @@ After loading the CSV file into a DataFrame, initial data exploration was perfor
 1) Each column's data type was reviewed, and the Date column was found to contain inconsistent formats (e.g., slashes and dashes used interchangeably). To address this, all slashes were replaced with dashes, and the column was converted to datetime format using pandas.to_datetime().<br>
 2) Summary Statistics and Missing Values:<br>
 Summary statistics were generated for the Sales, Discount, and Profit columns. The dataset was then checked for missing values and duplicate rows—none were found.<br>
-![Summary Statistics](images/stats.png)
+ ![Summary Statistics](images/stats.png)
 3) Outlier Detection:<br>
 Box plots were created for Sales, Discount, and Profit to identify outliers. Outliers were particularly notable in the Profit column.<br>
 
-![Boxplot](images/boxplot.png)
+ ![Boxplot](images/boxplot.png)
 4) Column Renaming for Simplification:<br>
 Product category names were standardized for consistency. For example:<br>
 Oil and Masala → Seasoning<br>
@@ -58,9 +58,9 @@ Breads and Buns → Breads<br>
 A heatmap and scatter plots were used to explore relationships between key variables:<br>
 A positive correlation was observed between Sales and Profit.
 No significant correlation was found between Sales and Discount, or between Discount and Profit.<br>
-![Heatmap](images/correlation.png)         
-![Correlation](images/scatter.png)  
-![Correlation](images/scatter2.png)    ![Correlation](images/scatter3.png)
+ ![Heatmap](images/correlation.png)         
+ ![Correlation](images/scatter.png)  
+ ![Correlation](images/scatter2.png)    ![Correlation](images/scatter3.png)
 6) Exporting Cleaned Data:<br>
 The cleaned and transformed DataFrame was saved as a CSV file for further analysis in a PostgreSQL database.
 
