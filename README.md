@@ -58,9 +58,12 @@ Dals and Pulses → Pulses<br>
 Breads and Buns → Breads<br>
 5) Correlation Analysis:<br>
 A heatmap and scatter plots were used to explore relationships between key variables:<br>
-![Correlation between Sales, Discount, Profit](images/correlation.png)
+![Correlation between Sales, Discount, Profit](images/correlation.png) <br>
+
 A positive correlation was observed between Sales and Profit.
 ![Sales vs Profit](images/scatter.png)
+
+
 No significant correlation was found between Sales and Discount, or between Discount and Profit.<br>
 ![Sales vs Discount](images/scatter2.png)      ![Discount vs Profit](images/scatter3.png)
 
