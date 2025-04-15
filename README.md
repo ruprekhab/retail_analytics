@@ -39,6 +39,7 @@ After loading the CSV file into a DataFrame, initial data exploration was perfor
 1) Each column's data type was reviewed, and the Date column was found to contain inconsistent formats (e.g., slashes and dashes used interchangeably). To address this, all slashes were replaced with dashes, and the column was converted to datetime format using pandas.to_datetime().<br>
 2) Summary Statistics and Missing Values:<br>
 Summary statistics were generated for the Sales, Discount, and Profit columns. The dataset was then checked for missing values and duplicate rows—none were found.
+![Summary Statistics](images/stats.png)
 
 
 3) Outlier Detection:<br>
