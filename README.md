@@ -44,6 +44,7 @@ Summary statistics were generated for the Sales, Discount, and Profit columns. T
 
 3) Outlier Detection:<br>
 Box plots were created for Sales, Discount, and Profit to identify outliers. Outliers were particularly notable in the Profit column.<br>
+![Boxplot](images/boxplot.png)
 
 4) Column Renaming for Simplification:<br>
 Product category names were standardized for consistency. For example:<br>
@@ -57,8 +58,11 @@ Dals and Pulses → Pulses<br>
 Breads and Buns → Breads<br>
 5) Correlation Analysis:<br>
 A heatmap and scatter plots were used to explore relationships between key variables:<br>
+![Correlation between Sales, Discount, Profit](images/correlation.png)
 A positive correlation was observed between Sales and Profit.
+![Sales vs Profit](images/scatter.png)
 No significant correlation was found between Sales and Discount, or between Discount and Profit.<br>
+![Sales vs Discount](images/scatter2.png)      ![Discount vs Profit](images/scatter3.png)
 
 6) Exporting Cleaned Data:<br>
 The cleaned and transformed DataFrame was saved as a CSV file for further analysis in a PostgreSQL database.
