@@ -14,7 +14,7 @@ This project presents a structured SQL-based analysis of a Superstore sales data
 ## Tools & Techniques
 
 - **Python** : Data cleaning and exploratory data analysis
-- **SQL** (Window Functions, Aggregations, Ranking, Grouping)
+- **SQL** (Window Functions, CTE, Aggregations, Ranking, Grouping)
 - **Business Intelligence Approach**: Focused on real-world retail KPIs— revenue, volume, profit margin and discounts.
 
 ## Data Cleaning and Exploration:
@@ -63,10 +63,10 @@ The analysis began with a top-level evaluation of how each category contributed 
 
 ![top categories](images/KPI.png)
 
-To better understand internal benchmarks, the overall average profit margin (25.05%) and average discount rate (22.68%) were calculated. These benchmarks helped surface underperforming promotions—specifically those sub-categories with below-average margins and above-average discounts.
+To better understand sub_category performance, the overall average profit margin and average discount rate were calculated. These benchmarks helped surface underperforming promotions—specifically those sub-categories with below-average margins and above-average discounts.
 
 A closer look at sub-category performance revealed a few concerning patterns. Chicken, Flour, Fresh Vegetables, and Soft Drinks were all heavily discounted yet delivered weak profit margins. When sales volume was assessed, Soft Drinks showed higher demand—suggesting promotional effectiveness—while the other three lagged in both volume and profitability.
-![weak sub category](images/low_margin_sc.png)
+![weak sub category](images/low_margin.png)
 
 
 On the other end, sub-categories like Noodles stood out for their superior profit margins, while Organic Vegetables, Health Drinks, Organic Staples, and Fish demonstrated high discounts paired with strong margins—indicating potentially efficient promotions worth doubling down on.
