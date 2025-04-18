@@ -2,25 +2,12 @@
 
 ## Project Overview
 
-This project involves a comprehensive SQL-based analysis of a retail dataset to uncover insights at both **product** and **regional** levels in order to support strategic decision-making around **promotional pricing** and **market expansion**.
-
+This project presents a structured SQL-based analysis of a Superstore sales dataset sourced from Kaggle. The goal was to explore how sales, profit, and discounts interact across product categories and sub-categories to generate actionable business insights.
 
 
 ## Business Objective
 
-To analyze product and regional sales data to uncover opportunities for **profit optimization** and **regional performance improvement**. The goal is to identify:
-
-- Regions that are under-penetrated or inefficient in terms of sales and profitability.
-- Actionable strategies to drive growth.
-
-
-
-## Problem Context
-
-A retail company operates across multiple regions and offers a wide variety of product categories. While overall revenue is growing, there are untapped opportunities in certain markets and inefficiencies in others. There is a need to:
-
-- Investigate **regional differences** in sales performance, discounting strategies, and profit margins.
-- Make data-driven decisions around **expansion** and **promotion**.
+ By analyzing product category and sub-category performance, the aim is to uncover patterns in sales, profit margins, and discounting behavior to improve overall profitability and reduce promotional inefficiencies.
 
 
 
@@ -28,7 +15,7 @@ A retail company operates across multiple regions and offers a wide variety of p
 
 - **Python** : Data cleaning and exploratory data analysis
 - **SQL** (Window Functions, Aggregations, Ranking, Grouping)
-- **Business Intelligence Approach**: Focused on real-world retail KPIs—sales, profit margin, discounts, and regional penetration
+- **Business Intelligence Approach**: Focused on real-world retail KPIs— revenue, volume, profit margin and discounts.
 
 ## Data Cleaning and Exploration:
 
@@ -72,46 +59,31 @@ The cleaned and transformed DataFrame was saved as a CSV file for further analys
 
 ## Analysis Summary
 
-### Product-Level Analysis
-- **Top categories by sales**: `Protein`, `Snacks`, and `Food Grains`
-- **Top categories by profit margin**: `Snacks`, `Harvest`, and `Beverages`
-- Used **window functions** to rank **top 3 sub-categories** by profit margin within each category.
+The analysis began with a top-level evaluation of how each category contributed to sales, profit, and discounting behavior. Protein led in total sales, while Snacks emerged as the most profitable category. Beverages had the highest average discount, raising questions around the efficiency of promotional strategies.
 
-![Top 3 Sub-Categories by Profit Margin](images/top_3_sub_cat.png)
+![top categories](images/KPI.png)
 
+To better understand internal benchmarks, the overall average profit margin (25.05%) and average discount rate (22.68%) were calculated. These benchmarks helped surface underperforming promotions—specifically those sub-categories with below-average margins and above-average discounts.
 
-### Regional Analysis
-- Identified **top 3 categories by profit margin per region**
-
-![KPI by Region](images/top_3_cate_regionwise.png)
-
-- North region stood out with the **highest profit margin (31%)** but had **only one category and one city (Vellore)**—an outlier with only one recorded transaction.
-- Compared **total sales, average discounts, and profit margins** across all regions.
-
-![KPI by Region](images/KPI_regionwise.png)
+A closer look at sub-category performance revealed a few concerning patterns. Chicken, Flour, Fresh Vegetables, and Soft Drinks were all heavily discounted yet delivered weak profit margins. When sales volume was assessed, Soft Drinks showed higher demand—suggesting promotional effectiveness—while the other three lagged in both volume and profitability.
+![weak sub category](images/low_margin_sc.png)
 
 
+On the other end, sub-categories like Noodles stood out for their superior profit margins, while Organic Vegetables, Health Drinks, Organic Staples, and Fish demonstrated high discounts paired with strong margins—indicating potentially efficient promotions worth doubling down on.
+![sub category](images/rank_sub_category.png)
 
-## Key Insights
-
-- **North**: Likely a data anomaly—only one transaction, but shows potential if verified.
-- **South**: Under-leveraged, high potential for expansion with improved promotions.
-- **Central**: Highest discounts but lowest profit margin and underwhelming sales—needs urgent optimization.
-- **East & West**: High sales with moderate profitability—mature markets that should be maintained and fine-tuned.
-
+Ranking sub-categories by profit margin within their respective categories helped further highlight high-potential performers and candidates for strategic repricing.
+![sub_category](images/sub_category.png)
 
 
 ## Conclusion & Action Plan
 
-| Region   | Strategy         | Action                                                              |
-|----------|------------------|---------------------------------------------------------------------|
-| North    | Investigate      | assess expansion feasibility                         |
-| South    | Expand           | Boost sales through targeted promotions                             |
-| Central  | Optimize         | Reduce discounts, reassess product mix                              |
-| East     | Maintain & refine| Monitor product performance and improve profit margins              |
-| West     | Maintain & refine| Reduce discount leakage and protect margins                         |
+* Reevaluate Discounts on Chicken, Flour, and Fresh Vegetables where deep discounting is not driving meaningful volume or profitability.
+* Review Pricing Strategy for Spices and Soft Drinks to improve margins without harming sales performance.
+* Prioritize High-Margin Products like Noodles by increasing visibility and ensuring consistent stock availability.
+* Strengthen Promotion Efficiency by focusing on categories like Organic Vegetables and Health Drinks, where higher discounts are yielding strong profits.
+* Continue Sub-Category Ranking regularly for assortment planning and targeted marketing strategies.
 
----
 
 ## File Structure
 
