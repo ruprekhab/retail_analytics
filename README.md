@@ -77,9 +77,10 @@ Ranking sub-categories by profit margin within their respective categories helpe
 ![sub_category](images/sub_category.png)
 
 Discounts were grouped into brackets to evaluate their impact on sales and profitability. Interestingly, the highest average profit occurred in the high discount range (21%–30%).
-![sub_category](images/discount bracket.png)
+
 * Sales peaked in the medium discount range (11%–20%), suggesting an effective balance between volume and value.
 * Low discounts (≤10%) showed the lowest average profit and sales, indicating limited effectiveness.
+![sub_category](images/discount_bracket.png)
 
 
 ## Conclusion & Action Plan
