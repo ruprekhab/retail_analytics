@@ -72,8 +72,14 @@ A closer look at sub-category performance revealed a few concerning patterns. Ch
 On the other end, sub-categories like Noodles stood out for their superior profit margins, while Organic Vegetables, Health Drinks, Organic Staples, and Fish demonstrated high discounts paired with strong margins—indicating potentially efficient promotions worth doubling down on.
 ![sub category](images/rank_sub_category.png)
 
+
 Ranking sub-categories by profit margin within their respective categories helped further highlight high-potential performers and candidates for strategic repricing.
 ![sub_category](images/sub_category.png)
+
+Discounts were grouped into brackets to evaluate their impact on sales and profitability. Interestingly, the highest average profit occurred in the high discount range (21%–30%).
+![sub_category](images/discount bracket.png)
+* Sales peaked in the medium discount range (11%–20%), suggesting an effective balance between volume and value.
+* Low discounts (≤10%) showed the lowest average profit and sales, indicating limited effectiveness.
 
 
 ## Conclusion & Action Plan
@@ -83,6 +89,7 @@ Ranking sub-categories by profit margin within their respective categories helpe
 * Prioritize High-Margin Products like Noodles by increasing visibility and ensuring consistent stock availability.
 * Strengthen Promotion Efficiency by focusing on categories like Organic Vegetables and Health Drinks, where higher discounts are yielding strong profits.
 * Continue Sub-Category Ranking regularly for assortment planning and targeted marketing strategies.
+* Prioritize testing and scaling promotions in the 11%–30% discount range, while reevaluating or phasing out low-discount strategies that show limited impact on sales and profitability.
 
 
 ## File Structure
