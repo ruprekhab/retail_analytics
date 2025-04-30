@@ -26,12 +26,12 @@ ROUND(SUM(profit)/SUM(sales),4) AS overall_margin,
 ROUND(AVG(discount),4) AS avg_discount
 FROM retail),
 
--- Create CTE to calculate sub_category KPIs
+-- Create CTE to calculate sub_category profit margin and average discount
 sub_category AS (SELECT 
 				 sub_category, ROUND(SUM(profit)/SUM(sales),4) AS profit_margin,
 				 ROUND(AVG(discount),4) AS avg_disc
 				 FROM retail
-				 GROUP BY sub_category);
+				 GROUP BY sub_category)
 
 -- Find sub categories with profit margin below overall benchmark and avg discount above overall benchmark
 SELECT sc.sub_category, sc.profit_margin, sc.avg_disc
