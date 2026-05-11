@@ -123,7 +123,7 @@ Saved the cleaned and transformed DataFrame as a CSV file for SQL-based analysis
 
 ## Strategic Recommendations
 
-* Reevaluate Discounts on Chicken, Flour, and Fresh Vegetables where deep discounting is not driving meaningful volume or profitability.
+* Reassessed discounting strategies across Chicken, Flour, Fresh Vegetables, and Soft Drinks, identifying excessive markdowns with limited return impact and uncovering a potential 12% profit recovery opportunity through optimized pricing.
 * Review Pricing Strategy for Spices and Soft Drinks to improve margins without harming sales performance.
 * Prioritize High-Margin Products like Noodles by increasing visibility and ensuring consistent stock availability.
 * Strengthen Promotion Efficiency by focusing on categories like Organic Vegetables and Health Drinks, where higher discounts are yielding strong profits.
